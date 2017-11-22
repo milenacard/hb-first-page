@@ -1,0 +1,38 @@
+.header{
+	width: 100%;
+	padding-bottom: $main-spacing;
+	margin: 0 auto;
+	border: 1px solid $color-border; 
+	background: $color-background;
+	z-index: 10;
+	height: 300px;
+	align-content: center;
+}
+
+.title{
+	color: rgb(221, 28, 92);
+	background: $color-background;
+	border: 1px solid $color-border; 
+	position: fixed; 
+	padding: 20px;
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+.title-page{
+	max-width: $main-width;
+	width: 100%;
+}
+
+.hero{
+	width: 100%;
+}
+
+.text-hero{ 
+		padding-top: 150px;
+		padding-left: 300px;
+		width: 70%;
+		font-size: 3em;
+		color: white;			
+}
