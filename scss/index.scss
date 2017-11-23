@@ -1,7 +1,10 @@
+//General
 @import 'variables';
-@import 'components/header';
 @import 'reset';
 @import 'base';
+
+//component
+@import 'components/header';
 @import 'components/photo-card';
 @import 'components/grid';
 
