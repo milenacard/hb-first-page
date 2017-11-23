@@ -1,59 +1,12 @@
 @import 'variables';
 @import 'components/header';
 @import 'reset';
+@import 'base';
+@import 'components/photo-card';
+@import 'components/grid';
 
 
-body{
-	font-family: $font-family;
-}
 
 
-.container{
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	border: 1px solid $color-border; 
-}
-
-.subcontainer{
-	display: flex;
-	max-width: $main-width;
-	width: 100%;
-	border: 1px solid #979797; 
-	justify-content: center;
-	margin: 0 auto;
-}
 
 
-.section1{
-	background: #D8D8D8;
-	border: 1px solid #979797; 
-	margin: $main-spacing;
-	height: 400px;
-}
-
-.section1 :last-child{
-	margin-right: 0;
-}
-
-.avatar{
-	width: 40%;
-}
-
-.basic-information{
-	width: 60%;
-	display: flex;
-	flex-direction: row;
-	border: 1px solid #979797; 
-}
-
-/*
-
-
-.resume{
-	grid-template-columns: repeat(2, 1fr);
-	grid-auto-rows: repeat(10, 1fr);
-	grid-column-gap: 20px;
-	
-}
-*/
