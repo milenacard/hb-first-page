@@ -5,11 +5,13 @@
 	border: 1px solid $color-border; 
 	justify-content: center;
 	margin: 0 auto;
+	background-image: url("http://vamosfotografia.com/wp-content/uploads/2017/09/paisajes-naturales-fotografia-15.jpg");
 }
 
 .section1{
-	margin: $main-spacing;
+	margin: 10px;
 	height: 400px;
+
 }
 
 .section1 :last-child{
@@ -62,4 +64,8 @@
 
 li {
 	padding-bottom: 5px;
+}
+
+.icon{
+	font-size: 20px;
 }
