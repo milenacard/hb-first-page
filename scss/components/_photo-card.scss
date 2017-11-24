@@ -35,7 +35,7 @@
 }
 
 .desing-information{
-	padding: 20px;
+	padding: 10px;
 	width: 100%;
 
 	&-subtitle{
@@ -50,10 +50,16 @@
 
 .list-hobby{
 	padding-left: 20px;
+	padding-top: 15px;
 	display: flex;
 	width: 100%;
+	font-size: 20px;
 
 	&-left{
 		width: 50%;
 	}
+}
+
+li {
+	padding-bottom: 5px;
 }
