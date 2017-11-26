@@ -2,16 +2,13 @@
 	display: flex;
 	max-width: $main-width;
 	width: 100%;
-	border: 1px solid $color-border; 
 	justify-content: center;
 	margin: 0 auto;
-	background-image: url("http://vamosfotografia.com/wp-content/uploads/2017/09/paisajes-naturales-fotografia-15.jpg");
 }
 
 .section1{
 	margin: 10px;
 	height: 400px;
-
 }
 
 .section1 :last-child{
@@ -19,7 +16,7 @@
 }
 
 .avatar{
-	width: 45%;
+	width: 40%;
 	display: flex;
 	justify-content: center;
 }
@@ -27,45 +24,53 @@
 .photo{
 	height: 100%;
 	border-radius: 50%;
-}
+}	
 
 .basic-information{
-	width: 55%;
+	width: 60%;
 	display: flex;
 	flex-direction: column;
-	border: 1px solid $color-border; 
+	color: black;
 }
 
 .desing-information{
-	padding: 10px;
 	width: 100%;
+	font-family: 'Gloria Hallelujah', cursive;
 
 	&-subtitle{
 		font-size: 30px;
-		color: rgb(170, 40, 127);
+		color: black;
+		font-family: 'Rochester', cursive;
 	}
 
 	&-text{
-		padding: 5px;
+		padding-left: 15px;
+		padding-bottom: 20px;
+		font-size: 20px;
 	}
+}
+
+h3{
+	font-size: 36px;
 }
 
 .list-hobby{
 	padding-left: 20px;
-	padding-top: 15px;
 	display: flex;
 	width: 100%;
-	font-size: 20px;
 
 	&-left{
 		width: 50%;
+		list-style-type: none;	
 	}
-}
 
-li {
-	padding-bottom: 5px;
+	&-right{
+		list-style-type: none;
+	}
+	
 }
 
 .icon{
-	font-size: 20px;
+	font-size: 15px;
+	font-family: 'Gloria Hallelujah', cursive;
 }

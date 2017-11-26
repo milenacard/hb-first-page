@@ -29,6 +29,7 @@
 }
 .icon-film:before {
   content: "\e913";
+  color: black;
 }
 .icon-book:before {
   content: "\e91f";
@@ -36,6 +37,7 @@
 }
 .icon-users:before {
   content: "\e972";
+  color: black;
 }
 .icon-gift:before {
   content: "\e99f";
@@ -47,6 +49,7 @@
 }
 .icon-spoon-knife:before {
   content: "\e9a3";
+  color: black;
 }
 .icon-leaf:before {
   content: "\e9a4";
@@ -54,6 +57,7 @@
 }
 .icon-airplane:before {
   content: "\e9af";
+  color: black;  
 }
 .icon-heart:before {
   content: "\e9da";
@@ -61,6 +65,7 @@
 }
 .icon-man-woman:before {
   content: "\e9de";
+  color: black;
 }
 .icon-happy:before {
   content: "\e9df";
@@ -68,10 +73,12 @@
 }
 .icon-wink2:before {
   content: "\e9e8";
+  color: black;
 
 }
 .icon-github:before {
   content: "\eab0";
+  color: black;
 }
 .icon-pinterest2:before {
   content: "\ead2";
