@@ -45,11 +45,11 @@
 	border: 3px solid $color-border-box;
 	transform: scale(1);
 	transition: all 200ms ease-in; 
-	
+
 	&:hover{
-		background-image: url ("https://i.pinimg.com/originals/f4/6f/13/f46f137a92d4828fab38424649e60e52.jpg");
 		transform: scale(1.2);
 		transition: all 200ms ease-in; 
+		background-color: #cfb0d2
 	}
 
 	&-1{
@@ -80,6 +80,21 @@
 	&-6{
 		grid-column: 2 / 3;
 		grid-row: 10 / span 3;
+	}
+
+	h1{
+		color: rgb(255, 0, 111);
+		font-size: 27px;
+	}
+
+	h2{
+		color: rgb(179, 19, 88);
+		font-size: 23px;
+	}
+
+	h3{
+		color: black;
+		font-size: 20px;
 	}
 }
 
